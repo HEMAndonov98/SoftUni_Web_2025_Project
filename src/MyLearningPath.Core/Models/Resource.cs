@@ -1,7 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
-using MyLearningPath.Core.Constants;
+using MyLearningPath.Common.Validation;
 using MyLearningPath.Core.Models.BaseModel;
 using MyLearningPath.Core.Models.Enums;
 using MyLearningPath.Core.Models.JoinEntities;
@@ -36,8 +35,11 @@ public class Resource : BaseEfModel<string>
     public Difficulty Difficulty { get; set; } = null!;
 
     //TODO add inverse property to help fluent API
+    [InverseProperty(nameof(ResourceSkill.Resource))]
     public ICollection<ResourceSkill>? ResourceSkills { get; set; }
+    [InverseProperty(nameof(ResourceTopic.Resource))]
     public ICollection<ResourceTopic>? ResourceTopics { get; set; }
+    [InverseProperty(nameof(LearningPathStep.Resource))]
     public ICollection<LearningPathStep>? LearningPathSteps { get; set; }
 
     // public QuizzDetails? QuizzDetails { get; set; }

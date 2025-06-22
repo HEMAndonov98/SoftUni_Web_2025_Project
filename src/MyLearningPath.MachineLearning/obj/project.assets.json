@@ -317,11 +317,22 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MyLearningPath.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MyLearningPath.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyLearningPath.Common.dll": {}
+        }
+      },
       "MyLearningPath.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.16"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.16",
+          "MyLearningPath.Common": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MyLearningPath.Core.dll": {}
@@ -820,6 +831,11 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MyLearningPath.Common/1.0.0": {
+      "type": "project",
+      "path": "../../MyLearningPath.Common/MyLearningPath.Common.csproj",
+      "msbuildProject": "../../MyLearningPath.Common/MyLearningPath.Common.csproj"
     },
     "MyLearningPath.Core/1.0.0": {
       "type": "project",

@@ -1,4 +1,4 @@
-namespace MyLearningPath.Core.Constants;
+namespace MyLearningPath.Common.Validation;
 /// <summary>
 /// Model constraint validation static class
 /// </summary>

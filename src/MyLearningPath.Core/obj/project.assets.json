@@ -316,6 +316,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MyLearningPath.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MyLearningPath.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyLearningPath.Common.dll": {}
+        }
       }
     }
   },
@@ -807,11 +817,17 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MyLearningPath.Common/1.0.0": {
+      "type": "project",
+      "path": "../../MyLearningPath.Common/MyLearningPath.Common.csproj",
+      "msbuildProject": "../../MyLearningPath.Common/MyLearningPath.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.16"
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.16",
+      "MyLearningPath.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -839,7 +855,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/MyLearningPath.Common/MyLearningPath.Common.csproj": {
+              "projectPath": "/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/MyLearningPath.Common/MyLearningPath.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using MyLearningPath.Common.Validation;
 
-using MyLearningPath.Core.Constants;
 
 namespace MyLearningPath.Core.Models.JoinEntities;
 

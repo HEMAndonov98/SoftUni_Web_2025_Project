@@ -1,7 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
-using MyLearningPath.Core.Constants;
+using MyLearningPath.Common.Validation;
 using MyLearningPath.Core.Models.BaseModel;
 
 namespace MyLearningPath.Core.Models;
