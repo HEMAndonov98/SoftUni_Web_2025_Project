@@ -35,12 +35,10 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<UserSkill> UserSkill { get; set; }
 
     public DbSet<UserLearningGoal> UserLearningGoal { get; set; }
-
+    
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options) { }
-
-    public ApplicationDbContext() { }
-
+    
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);

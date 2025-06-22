@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/MyLearningPath.Web.props" />
-</Project>

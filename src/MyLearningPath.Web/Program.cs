@@ -15,10 +15,16 @@ builder.Services.AddControllersWithViews();
 
 
 builder.Services.AddSingleton<SafeDeleteInterceptor>();
-builder.Services.AddSingleton<IStorageProvider, LocalStorageProvider>();
+//TODO Uncomment to test later on
+//builder.Services.AddSingleton<IStorageProvider, LocalStorageProvider>();
 
 //Database
-var connectionString = builder.Configuration["ConnectionString"];
+var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection");
+
+if (string.IsNullOrEmpty(connectionString))
+{
+    throw new InvalidOperationException("Connection string not found");   
+}
 
 builder.Services.AddDbContext<ApplicationDbContext>(
 (sp, options) => options
