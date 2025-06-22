@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyLearningPath.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c16ebc7c9c7c1747b17c5a0ca35de7f1e8f73cd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyLearningPath.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyLearningPath.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
