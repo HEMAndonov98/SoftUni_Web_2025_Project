@@ -1,0 +1,17 @@
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/bin/Debug/net8.0/MyLearningPath.Infrastructure.deps.json
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/bin/Debug/net8.0/MyLearningPath.Infrastructure.dll
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/bin/Debug/net8.0/MyLearningPath.Infrastructure.pdb
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/bin/Debug/net8.0/MyLearningPath.Core.dll
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/bin/Debug/net8.0/MyLearningPath.Core.pdb
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/MyLearningPath.Infrastructure.csproj.AssemblyReference.cache
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/MyLearningPath.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/MyLearningPath.Infrastructure.AssemblyInfoInputs.cache
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/MyLearningPath.Infrastructure.AssemblyInfo.cs
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/MyLearningPath.Infrastructure.csproj.CoreCompileInputs.cache
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/MyLearni.BF9F384B.Up2Date
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/MyLearningPath.Infrastructure.dll
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/refint/MyLearningPath.Infrastructure.dll
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/MyLearningPath.Infrastructure.pdb
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/ref/MyLearningPath.Infrastructure.dll
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/bin/Debug/net8.0/MyLearningPath.Infrastructure.runtimeconfig.json
+/Volumes/ExtremeSSD/Projects/C#Web/MyLearningPath/src/MyLearningPath.Infrastructure/obj/Debug/net8.0/MyLearningPath.Infrastructure.genruntimeconfig.cache
