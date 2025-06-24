@@ -8,7 +8,8 @@ using MyLearningPath.Core.Models.User;
 
 namespace MyLearningPath.Infrastructure;
 
-public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+    : IdentityDbContext<ApplicationUser>(options)
 {
     //base entities
     public DbSet<Category> Category { get; set; }
@@ -36,9 +37,6 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<UserSkill> UserSkill { get; set; }
 
     public DbSet<UserLearningGoal> UserLearningGoal { get; set; }
-    
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
